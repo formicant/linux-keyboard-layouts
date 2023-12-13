@@ -1,0 +1,38 @@
+{
+  "fullName": "Greek (Teil)",
+  "name": "gr",
+  "version": "0.1",
+  "shiftlevels": ["None", "Shift", "AltGr", "Shift+AltGr"],
+  "keys": [
+    { "pos": "Q", "letters": ["ϙ", "Ϙ", "ϟ", "Ϟ"] },
+    { "pos": "W", "letters": ["ω", "Ω"] },
+    { "pos": "E", "letters": ["ε", "Ε", "ϵ"] },
+    { "pos": "R", "letters": ["ρ", "Ρ", "ϱ"] },
+    { "pos": "T", "letters": ["τ", "Τ", "ͳ", "Ͳ"] },
+    { "pos": "Y", "letters": ["ψ", "Ψ", "ϡ", "Ϡ"] },
+    { "pos": "U", "letters": ["υ", "Υ", "ϒ", "ϒ"] },
+    { "pos": "I", "letters": ["ι", "Ι"] },
+    { "pos": "O", "letters": ["ο", "Ο"] },
+    { "pos": "P", "letters": ["π", "Π", "ϖ"] },
+    
+    { "pos": "A", "letters": ["α", "Α"] },
+    { "pos": "S", "letters": ["σ", "Σ", "ς"] },
+    { "pos": "D", "letters": ["δ", "Δ"] },
+    { "pos": "F", "letters": ["φ", "Φ", "ϕ"] },
+    { "pos": "G", "letters": ["γ", "Γ"] },
+    { "pos": "H", "letters": ["η", "Η", "ͱ", "Ͱ"] },
+    { "pos": "J", "letters": ["ξ", "Ξ", "ϳ", "Ϳ"] },
+    { "pos": "K", "letters": ["κ", "Κ", "ϰ"] },
+    { "pos": "L", "letters": ["λ", "Λ"] },
+    { "pos": ";", "letters": [";"] },
+    { "pos": "'", "letters": ["ʹ", "͵"] },
+    
+    { "pos": "Z", "letters": ["ζ", "Ζ", "ϲ", "Ϲ"] },
+    { "pos": "X", "letters": ["χ", "Χ", "ϸ", "Ϸ"] },
+    { "pos": "C", "letters": ["θ", "Θ", "ϑ", "ϴ"] },
+    { "pos": "V", "letters": ["ϝ", "Ϝ", "ͷ", "Ͷ"] },
+    { "pos": "B", "letters": ["β", "Β", "ϐ"] },
+    { "pos": "N", "letters": ["ν", "Ν"] },
+    { "pos": "M", "letters": ["μ", "Μ", "ϻ", "Ϻ"] }
+  ]
+}

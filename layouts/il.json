@@ -1,0 +1,57 @@
+{
+  "fullName": "Hebrew (Teil)",
+  "name": "il",
+  "version": "0.1",
+  "shiftlevels": ["None", "Shift", "AltGr", "Shift+AltGr"],
+  "keys": [
+    // ole, sheqel
+    { "pos": "`", "capslock": false, "letters": ["\u05AB", "₪"] },
+    // maqaph, ascii `-`
+    { "pos": "-", "capslock": false, "letters": ["־", "-"] },
+    // ascii `=`, Hebrew plus
+    { "pos": "=", "capslock": false, "letters": ["=", "﬩"] },
+    
+    { "pos": "Q", "capslock": false, "letters": ["ק"] },
+    { "pos": "W", "capslock": false, "letters": ["ו", "װ"] },
+    // tzere, segol, chataph segol
+    { "pos": "E", "capslock": false, "letters": ["\u05B5", "\u05B6", "\u05B1"] },
+    { "pos": "R", "capslock": false, "letters": ["ר"] },
+    { "pos": "T", "capslock": false, "letters": ["ת"] },
+    { "pos": "Y", "capslock": false, "letters": ["צ", "ץ"] },
+    // dagesh/mapiq/shuruq, qubutz, cholam for waw
+    { "pos": "U", "capslock": false, "letters": ["\u05BC", "\u05BB", "\u05BA"] },
+    // chiriq, shva, rafe
+    { "pos": "I", "capslock": false, "letters": ["\u05B4", "\u05B0", "\u05BF"] },
+    // cholam, qamatz qatan, chataph qamatz
+    { "pos": "O", "capslock": false, "letters": ["\u05B9", "\u05C7", "\u05B3"] },
+    { "pos": "P", "capslock": false, "letters": ["פ", "ף"] },
+    
+    // qamatz, patach, chataph patach
+    { "pos": "A", "capslock": false, "letters": ["\u05B8", "\u05B7", "\u05B2"] },
+    { "pos": "S", "capslock": false, "letters": ["ש", "שׂ", "שׁ"] },
+    { "pos": "D", "capslock": false, "letters": ["ד"] },
+    { "pos": "F", "capslock": false, "letters": ["ט"] },
+    { "pos": "G", "capslock": false, "letters": ["ג"] },
+    { "pos": "H", "capslock": false, "letters": ["ה", "ױ"] },
+    { "pos": "J", "capslock": false, "letters": ["י", "ײ"] },
+    { "pos": "K", "capslock": false, "letters": ["כ", "ך"] },
+    { "pos": "L", "capslock": false, "letters": ["ל"] },
+    { "pos": ";", "capslock": false, "letters": ["א"] },
+    // geresh, gereshayim, ascii `'`, ascii `"`
+    { "pos": "'", "capslock": false, "letters": ["׳", "״", "'", "\""] },
+    
+    { "pos": "Z", "capslock": false, "letters": ["ז"] },
+    { "pos": "X", "capslock": false, "letters": ["ח"] },
+    { "pos": "C", "capslock": false, "letters": ["ס"] },
+    { "pos": "V", "capslock": false, "letters": ["ע"] },
+    { "pos": "B", "capslock": false, "letters": ["ב"] },
+    { "pos": "N", "capslock": false, "letters": ["נ", "ן"] },
+    { "pos": "M", "capslock": false, "letters": ["מ", "ם"] },
+    // ascii `,`, right-to-left mark, right-to-left isolate
+    { "pos": ",", "capslock": false, "letters": [",", "\u200F", "\u2067"] },
+    // ascii `.`, left-to-right mark, left-to-right isolate
+    { "pos": ".", "capslock": false, "letters": [".", "\u200E", "\u2066"] },
+    // pop directional isolate, ascii `?`, first strong isolate
+    { "pos": "/", "capslock": false, "letters": ["\u2069", "?", "\u2068"] }
+  ]
+}

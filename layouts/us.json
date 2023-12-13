@@ -1,0 +1,42 @@
+{
+  "fullName": "US (Teil)",
+  "name": "us",
+  "version": "0.1",
+  "shiftlevels": ["None", "Shift", "AltGr", "Shift+AltGr"],
+  "keys": [
+    { "pos": "1", "shiftlevels": ["Extend"], "letters": ["˩"] },
+    { "pos": "2", "shiftlevels": ["Extend"], "letters": ["˨"] },
+    { "pos": "3", "shiftlevels": ["Extend"], "letters": ["˧"] },
+    { "pos": "4", "shiftlevels": ["Extend"], "letters": ["˦"] },
+    { "pos": "5", "shiftlevels": ["Extend"], "letters": ["˦"] },
+    
+    { "pos": "Q", "letters": ["q", "Q", "ø", "Ø"] },
+    { "pos": "W", "letters": ["w", "W", "ɯ", "ɰ"] },
+    { "pos": "E", "letters": ["e", "E", "ɛ", "Ɛ"] },
+    { "pos": "R", "letters": ["r", "R", "ɾ", "ʁ"] },
+    { "pos": "T", "letters": ["t", "T", "þ", "Þ"] },
+    { "pos": "Y", "letters": ["y", "Y", "ɣ", "Ɣ"] },
+    { "pos": "U", "letters": ["u", "U", "ʊ", "Ʊ"] },
+    { "pos": "I", "letters": ["i", "I", "ı", "İ"] },
+    { "pos": "O", "letters": ["o", "O", "ɔ", "Ɔ"] },
+    { "pos": "P", "letters": ["p", "P", "ʔ", "ʕ"] },
+    
+    { "pos": "A", "letters": ["a", "A", "ɑ", "Ɑ"] },
+    { "pos": "S", "letters": ["s", "S", "ß", "ẞ"] },
+    { "pos": "D", "letters": ["d", "D", "ð", "Ð"] },
+    { "pos": "F", "letters": ["f", "F", "ɸ", "ƒ"] },
+    { "pos": "G", "letters": ["g", "G", "ɡ", "Ɡ"] },
+    { "pos": "H", "letters": ["h", "H", "ɦ", "ɧ"] },
+    { "pos": "J", "letters": ["j", "J", "ɪ", "Ɪ"] },
+    { "pos": "K", "letters": ["k", "K", "ƙ", "Ƙ"] },
+    { "pos": "L", "letters": ["l", "L", "ɬ", "Ɬ"] },
+    
+    { "pos": "Z", "letters": ["z", "Z", "ʒ", "Ʒ"] },
+    { "pos": "X", "letters": ["x", "X", "ʃ", "ſ"] },
+    { "pos": "C", "letters": ["c", "C", "ə", "Ə"] },
+    { "pos": "V", "letters": ["v", "V", "ɤ", "ʌ"] },
+    { "pos": "B", "letters": ["b", "B", "ɞ", "ʚ"] },
+    { "pos": "N", "letters": ["n", "N", "ŋ", "Ŋ"] },
+    { "pos": "M", "letters": ["m", "M", "ɱ", "Ɱ"] }
+  ]
+}
