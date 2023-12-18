@@ -1,0 +1,102 @@
+{
+  "shiftlevels": ["Extend", "Shift+Extend"],
+  "keys": [
+    // grave, grave below
+    { "pos": "`", "letters": ["̀", "̖"] },
+    // 
+    { "pos": "1", "letters": [] },
+    // 
+    { "pos": "2", "letters": [] },
+    // 
+    { "pos": "3", "letters": [] },
+    // 
+    { "pos": "4", "letters": [] },
+    // 
+    { "pos": "5", "letters": [] },
+    // circumflex, circumflex below (= A)
+    { "pos": "6", "letters": ["̂", "̭"] },
+    // inverted breve, inverted breve below
+    { "pos": "7", "letters": ["̑", "̯"] },
+    // asterisk, asterisk below
+    { "pos": "8", "letters": ["⃰", "͙"] },
+    // reversed comma above
+    { "pos": "9", "letters": ["̔"] },
+    // comma above, comma below
+    { "pos": "0", "letters": ["̓"] },
+    // macron, macron below
+    { "pos": "-", "letters": ["̄", "̱"] },
+    // stroke overlay, long stroke overlay
+    { "pos": "=", "letters": ["̵", "̶"] },
+    
+    // 
+    { "pos": "Q", "letters": [] },
+    // 
+    { "pos": "W", "letters": [] },
+    // 
+    { "pos": "E", "letters": [] },
+    // rhotic hook
+    { "pos": "R", "letters": ["˞"] },
+    // turned [anticlockwise open circle arrow], clockwise open circle arrow
+    { "pos": "T", "letters": ["↺", "↻"] },
+    // 
+    { "pos": "Y", "letters": [] },
+    // breve, breve below
+    { "pos": "U", "letters": ["̆", "̮"] },
+    // vertical line above, vertical line below
+    { "pos": "I", "letters": ["̍", "̩"] },
+    // ring above, ring below
+    { "pos": "O", "letters": ["̊", "̥"] },
+    // descender [modifier letter low vertical line]
+    { "pos": "P", "letters": ["ˌ"] },
+    // double grave
+    { "pos": "[", "letters": ["̏"] },
+    // double acute
+    { "pos": "]", "letters": ["̋"] },
+    // solidus overlay, long solidus overlay
+    { "pos": "\\", "letters": ["̷", "̸"] },
+    
+    // circumflex, circumflex below (= 6)
+    { "pos": "A", "letters": ["̂", "̭"] },
+    // script [symbol for samaritan source]
+    { "pos": "S", "letters": ["⅏"] },
+    // double-struck [double vertical line]
+    { "pos": "D", "letters": ["‖"] },
+    // fraktur [black square]
+    { "pos": "F", "letters": ["■"] },
+    // curl [curly loop]
+    { "pos": "G", "letters": ["➰"] },
+    // horn, hook above
+    { "pos": "H", "letters": ["̛", "̉"] },
+    // palatal hook
+    { "pos": "J", "letters": ["̡"] },
+    // hook [lower right quadrant circular arc]
+    { "pos": "K", "letters": ["◞"] },
+    // retroflex hook
+    { "pos": "L", "letters": ["̢"] },
+    // diaeresis, diaeresis below
+    { "pos": ";", "letters": ["̈", "̤"] },
+    // acute, acute below
+    { "pos": "'", "letters": ["́", "̗"] },
+    
+    // tail [lower left quadrant circular arc]
+    { "pos": "Z", "letters": ["◟"] },
+    // x above, x below
+    { "pos": "X", "letters": ["̽", "͓"] },
+    // small caps [copyright sign]
+    { "pos": "C", "letters": ["©"] },
+    // caron, caron below
+    { "pos": "V", "letters": ["̌", "̬"] },
+    // 
+    { "pos": "B", "letters": [] },
+    // tilde, tilde below
+    { "pos": "N", "letters": ["̃", "̰"] },
+    // tilde overlay
+    { "pos": "M", "letters": ["̴"] },
+    // cedilla, ogonek
+    { "pos": ",", "letters": ["̧", "̨"] },
+    // dot above, dot below
+    { "pos": ".", "letters": ["̇", "̣"] },
+    // ligature [character tie]
+    { "pos": "/", "letters": ["⁀"] }
+  ]
+}

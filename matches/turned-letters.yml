@@ -1,0 +1,89 @@
+# Turned Letters
+# [Extend + T] ↺ U+21BA Anticlockwise Open Circle Arrow
+matches:
+
+# Latin
+- { trigger: "A↺", replace: "Ɐ" }
+- { trigger: "a↺", replace: "ɐ" }
+- { trigger: "Ɑ↺", replace: "Ɒ" }
+- { trigger: "ɑ↺", replace: "ɒ" }
+- { trigger: "ɒ↺", replace: "ꭤ" }
+- { trigger: "æ↺", replace: "ᴂ" }
+- { trigger: "C↺", replace: "Ɔ" }
+- { trigger: "c↺", replace: "ɔ" }
+- { trigger: "ɔ↺", replace: "ᴒ" }
+- { trigger: "ᴄ↺", replace: "ᴐ" }
+- { trigger: "E↺", replace: "Ǝ" }
+- { trigger: "e↺", replace: "ɘ" }
+- { trigger: "ɘ↺", replace: "ǝ" }
+- { trigger: "ᴇ↺", replace: "ⱻ" }
+- { trigger: "Ɛ↺", replace: "Ɜ" }
+- { trigger: "ɛ↺", replace: "ɜ" }
+- { trigger: "ɜ↺", replace: "ᴈ" }
+- { trigger: "ɞ↺", replace: "ʚ" }
+- { trigger: "F↺", replace: "Ⅎ" }
+- { trigger: "f↺", replace: "ɟ" }
+- { trigger: "g↺", replace: "ᵷ" }
+- { trigger: "ɡ↺", replace: "ᵷ" }
+- { trigger: "h↺", replace: "ɥ" }
+- { trigger: "i↺", replace: "ᴉ" }
+- { trigger: "K↺", replace: "Ʞ" }
+- { trigger: "k↺", replace: "ʞ" }
+- { trigger: "M↺", replace: "Ɯ" }
+- { trigger: "m↺", replace: "ɯ" }
+- { trigger: "ɯ↺", replace: "ᴟ" }
+- { trigger: "ɴ↺", replace: "ᴎ" }
+- { trigger: "o↺", replace: "ᴑ" }
+- { trigger: "ø↺", replace: "ᴓ" }
+- { trigger: "œ↺", replace: "ᴔ" }
+- { trigger: "Q↺", replace: "℺" }
+- { trigger: "r↺", replace: "ɹ" }
+- { trigger: "ʀ↺", replace: "ʁ" }
+- { trigger: "ʁ↺", replace: "ᴙ" }
+- { trigger: "ᴙ↺", replace: "ᴚ" }
+- { trigger: "ɽ↺", replace: "ⱹ" }
+- { trigger: "ɼ↺", replace: "ɺ" }
+- { trigger: "ɾ↺", replace: "ɿ" }
+- { trigger: "ʃ↺", replace: "ʅ" }
+- { trigger: "ʆ↺", replace: "ƪ" }
+- { trigger: "T↺", replace: "Ʇ" }
+- { trigger: "t↺", replace: "ʇ" }
+- { trigger: "u↺", replace: "ᴝ" }
+- { trigger: "ü↺", replace: "ᴞ" }
+- { trigger: "V↺", replace: "Ʌ" }
+- { trigger: "v↺", replace: "ʌ" }
+- { trigger: "w↺", replace: "ʍ" }
+- { trigger: "y↺", replace: "ʎ" }
+- { trigger: "Ʒ↺", replace: "Ƹ" }
+- { trigger: "ʒ↺", replace: "ƹ" }
+- { trigger: "ʔ↺", replace: "ʕ" }
+- { trigger: "ʕ↺", replace: "ʖ" }
+- { trigger: "ʡ↺", replace: "ʢ" }
+- { trigger: "ʢ↺", replace: "ƾ" }
+- { trigger: "ˀ↺", replace: "ˁ" }
+
+# Cyrillic
+- { trigger: "З↺", replace: "Ԑ" }
+- { trigger: "з↺", replace: "ԑ" }
+- { trigger: "Ѕ↺", replace: "Ꙅ" }
+- { trigger: "ѕ↺", replace: "ꙅ" }
+- { trigger: "Ц↺", replace: "Ꙡ" }
+- { trigger: "ц↺", replace: "ꙡ" }
+- { trigger: "Ч↺", replace: "Һ" }
+- { trigger: "ч↺", replace: "һ" }
+- { trigger: "Э↺", replace: "Є" }
+- { trigger: "э↺", replace: "є" }
+- { trigger: "Ю↺", replace: "Ꙕ" }
+- { trigger: "ю↺", replace: "ꙕ" }
+
+# Greek
+- { trigger: "λ↺", replace: "ʎ" }
+- { trigger: "ι↺", replace: "℩" }
+- { trigger: "Ϲ↺", replace: "Ͻ" }
+- { trigger: "ϲ↺", replace: "ͻ" }
+- { trigger: "Ͼ↺", replace: "Ͽ" }
+- { trigger: "ͼ↺", replace: "ͽ" }
+- { trigger: "Ω↺", replace: "℧" }
+
+# Hebrew
+- { trigger: "נ↺", replace: "׆" }

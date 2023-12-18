@@ -1,6 +1,7 @@
 #!/bin/bash
 
 layouts=('us' 'ru' 'gr' 'il')
+common_jsons='layouts/base.json layouts/diacritics.json'
 
 head='xkb_symbols "basic" {'
 caps_pre='key <CAPS> { actions[Group1] = [ LockGroup(group='
@@ -13,7 +14,7 @@ for layout in ${layouts[@]}
 do
     echo "Building layout '$layout'..."
     mkdir build/$layout
-    klfc layouts/base.json layouts/$layout.json --xkb build/$layout
+    klfc $common_jsons layouts/$layout.json --xkb build/$layout
     if [ ! -f build/$layout/symbols/$layout ]
     then
         echo 'Error!'
@@ -25,6 +26,9 @@ do
     sed -i "s/$head/$head\n$caps_action/" build/$layout/symbols/$layout
 done
 
+# Run the Python script
+python3 generate_matches.py
+
 # Install layouts if started with -i flag
 getopts 'i' option
 if [ $option = 'i' ]
@@ -34,6 +38,10 @@ then
         echo "Installing layout '$layout'..."
         build/$layout/install-system.sh
     done
+    
+    echo "Copying match files into Espanso config directory..."
+    rm -f ~/.config/espanso/match/*.yml
+    cp -f matches/*.yml ~/.config/espanso/match/
 fi
 
 echo 'Done.'
