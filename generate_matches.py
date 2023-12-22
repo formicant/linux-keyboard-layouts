@@ -124,6 +124,19 @@ def generate_yaml(match_file: MatchFile, compact: bool=True) -> None:
                 file.write(f'{prefix}{separator.join(fields)}{postfix}')
 
 
+REGIONAL_INDICATOR = 0x1F1E6
+
+def get_regional_flag_group(name='Regional flags', actuator='⚐') -> MatchGroup:
+    matches = []
+    for letter1 in range(26):
+        for letter2 in range(26):
+            trigger = f'{chr(ord("a") + letter1)}{chr(ord("a") + letter2)}{actuator}'
+            replace = f'{chr(REGIONAL_INDICATOR + letter1)}{chr(REGIONAL_INDICATOR + letter2)}'
+            matches.append(EspansoMatch(trigger, replace))
+    
+    return MatchGroup(name, matches)
+
+
 if __name__ == '__main__':
     print('Generating auto-generated match files...')
     
@@ -194,6 +207,7 @@ if __name__ == '__main__':
             get_name_group('Curl',            '➰', r'^(.*) WITH CURL$', r'\1'),
         ]),
         MatchFile('diacritics', get_diacritic_groups(r'^COMBINING (?!KATAKANA)')),
+        MatchFile('regional-flags', [ get_regional_flag_group() ]),
     ]
     
     for file in files:

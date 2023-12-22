@@ -38,8 +38,8 @@
     { "pos": "R", "letters": ["˞"] },
     // turned [anticlockwise open circle arrow], clockwise open circle arrow
     { "pos": "T", "letters": ["↺", "↻"] },
-    // 
-    { "pos": "Y", "letters": [] },
+    // regional flag [white flag]
+    { "pos": "Y", "letters": ["⚐"] },
     // breve, breve below
     { "pos": "U", "letters": ["̆", "̮"] },
     // vertical line above, vertical line below
