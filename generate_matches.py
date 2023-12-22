@@ -83,7 +83,7 @@ def get_unicode_characters() -> dict[int, Charachter]:
     return characters
 
 
-def generate_yaml(match_file: MatchFile, compact:bool=True) -> None:
+def generate_yaml(match_file: MatchFile, compact: bool=True) -> None:
     """ Writes match groups into a yaml file.
         Not using `pyyaml` to avoid dependencies.
     """

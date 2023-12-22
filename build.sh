@@ -1,7 +1,6 @@
 #!/bin/bash
 
 layouts=('us' 'ru' 'gr' 'il')
-common_jsons='layouts/base.json layouts/diacritics.json'
 
 head='xkb_symbols "basic" {'
 caps_pre='key <CAPS> { actions[Group1] = [ LockGroup(group='
@@ -14,7 +13,7 @@ for layout in ${layouts[@]}
 do
     echo "Building layout '$layout'..."
     mkdir build/$layout
-    klfc $common_jsons layouts/$layout.json --xkb build/$layout
+    klfc layouts/base.json layouts/$layout.json layouts/diacritics.json --xkb build/$layout
     if [ ! -f build/$layout/symbols/$layout ]
     then
         echo 'Error!'
