@@ -13,7 +13,7 @@ for layout in ${layouts[@]}
 do
     echo "Building layout '$layout'..."
     mkdir build/$layout
-    klfc layouts/base.json layouts/$layout.json layouts/diacritics.json --xkb build/$layout
+    klfc layouts/base.json layouts/numpad.json layouts/$layout.json layouts/diacritics.json --xkb build/$layout
     if [ ! -f build/$layout/symbols/$layout ]
     then
         echo 'Error!'

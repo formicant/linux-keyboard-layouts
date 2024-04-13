@@ -1,0 +1,8 @@
+matches:
+  - trigger: "📅"
+    replace: "{{iso_date}}"
+    vars:
+      - name: iso_date
+        type: date
+        params:
+          format: "%Y-%m-%d"
