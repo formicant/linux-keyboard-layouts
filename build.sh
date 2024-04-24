@@ -3,8 +3,8 @@
 layouts=('us' 'ru' 'gr' 'il')
 
 head='xkb_symbols "basic" {'
-caps_pre='key <CAPS> { actions[Group1] = [ LockGroup(group='
-caps_post=') ] };'
+caps_pre='key <CAPS> { [ VoidSymbol, Caps_Lock ], actions[Group1] = [ LockGroup(group='
+caps_post='), LockMods(mods=Lock) ] };'
 
 rm -rf build
 mkdir build
