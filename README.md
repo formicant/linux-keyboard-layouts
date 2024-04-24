@@ -64,3 +64,8 @@ A reboot might be needed to apply the new layouts.
   - `*.yml` — manually written matches
 - `generate_matches.py` — script generating `-generated-*.yml` matches
 - `build.sh` — build script
+
+
+## Notes
+
+- `Extend+PageUp`, `Extend+PageDown` do not work properly. So I used `Extend+1` for superscript and `Extend+Q` for subscript.

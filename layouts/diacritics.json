@@ -3,8 +3,8 @@
   "keys": [
     // grave, grave below
     { "pos": "`", "letters": ["̀", "̖"] },
-    // 
-    { "pos": "1", "letters": [] },
+    // superscript
+    { "pos": "1", "letters": ["⤒"] },
     // 
     { "pos": "2", "letters": [] },
     // 
@@ -28,8 +28,8 @@
     // stroke overlay, long stroke overlay
     { "pos": "=", "letters": ["̵", "̶"] },
     
-    // 
-    { "pos": "Q", "letters": [] },
+    // subscript
+    { "pos": "Q", "letters": ["⤓"] },
     // 
     { "pos": "W", "letters": [] },
     // 
