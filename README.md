@@ -68,4 +68,4 @@ A reboot might be needed to apply the new layouts.
 
 ## Notes
 
-- `Extend+PageUp`, `Extend+PageDown` do not work properly. So I used `Extend+1` for superscript and `Extend+Q` for subscript.
+- `Extend+PageUp`, `Extend+PageDown` do not work properly. So I used `Extend+Q` for superscript and `Extend+W` for subscript.

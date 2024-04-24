@@ -3,15 +3,11 @@
   "keys": [
     // grave, grave below
     { "pos": "`", "letters": ["̀", "̖"] },
-    // superscript
-    { "pos": "1", "letters": ["⤒"] },
-    // 
+    // tones in us.json
+    { "pos": "1", "letters": [] },
     { "pos": "2", "letters": [] },
-    // 
     { "pos": "3", "letters": [] },
-    // 
     { "pos": "4", "letters": [] },
-    // 
     { "pos": "5", "letters": [] },
     // circumflex, circumflex below (= A)
     { "pos": "6", "letters": ["̂", "̭"] },
@@ -28,10 +24,10 @@
     // stroke overlay, long stroke overlay
     { "pos": "=", "letters": ["̵", "̶"] },
     
+    // superscript
+    { "pos": "Q", "letters": ["⤒"] },
     // subscript
-    { "pos": "Q", "letters": ["⤓"] },
-    // 
-    { "pos": "W", "letters": [] },
+    { "pos": "W", "letters": ["⤓"] },
     // 
     { "pos": "E", "letters": [] },
     // rhotic hook
