@@ -2,6 +2,14 @@
 # [Extend + T] ↺ U+21BA Anticlockwise Open Circle Arrow
 matches:
 
+# Punctuation
+- { trigger: "!↺", replace: "¡" }
+- { trigger: "?↺", replace: "¿" }
+
+# Digits
+- { trigger: "2↺", replace: "↊" }
+- { trigger: "3↺", replace: "↋" }
+
 # Latin
 - { trigger: "A↺", replace: "Ɐ" }
 - { trigger: "a↺", replace: "ɐ" }

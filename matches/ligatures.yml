@@ -2,6 +2,42 @@
 # [Extend + /] ⁀ U+2040 Character Tie
 matches:
 
+# Punctuation
+- { trigger: "..⁀", replace: "‥" }
+- { trigger: "...⁀", replace: "…" }
+- { trigger: "**⁀", replace: "⁑" }
+- { trigger: "***⁀", replace: "⁂" }
+- { trigger: "||⁀", replace: "‖" }
+- { trigger: "!!⁀", replace: "‼" }
+- { trigger: "!?⁀", replace: "‽" }
+- { trigger: "?!⁀", replace: "‽" }
+- { trigger: "??⁀", replace: "⁇" }
+- { trigger: "††⁀", replace: "‡" }
+- { trigger: "+-⁀", replace: "±" }
+- { trigger: "+−⁀", replace: "±" }
+- { trigger: "-+⁀", replace: "∓" }
+- { trigger: "−+⁀", replace: "∓" }
+- { trigger: ":=⁀", replace: "≔" }
+- { trigger: "=:⁀", replace: "≕" }
+- { trigger: "<_⁀", replace: "≤" }
+- { trigger: ">_⁀", replace: "≥" }
+- { trigger: "<=⁀", replace: "⩽" }
+- { trigger: ">=⁀", replace: "⩾" }
+- { trigger: "<<⁀", replace: "≪" }
+- { trigger: ">>⁀", replace: "≫" }
+- { trigger: "<<<⁀", replace: "⋘" }
+- { trigger: ">>>⁀", replace: "⋙" }
+- { trigger: "((⁀", replace: "⸨" }
+- { trigger: "))⁀", replace: "⸩" }
+- { trigger: "∫∫⁀", replace: "∬" }
+- { trigger: "∫∫∫⁀", replace: "∭" }
+- { trigger: "(C)⁀", replace: "©" }
+- { trigger: "(c)⁀", replace: "©" }
+- { trigger: "(R)⁀", replace: "®" }
+- { trigger: "(r)⁀", replace: "®" }
+- { trigger: "TM⁀", replace: "™" }
+- { trigger: "tm⁀", replace: "™" }
+
 # Latin
 - { trigger: "AA⁀", replace: "Ꜳ" }
 - { trigger: "Aa⁀", replace: "Ꜳ" }
