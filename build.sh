@@ -25,8 +25,9 @@ do
     sed -i "s/$head/$head\n$caps_action/" build/$layout/symbols/$layout
 done
 
-# Run the Python script
+# Run the Python scripts
 python3 generate_matches.py
+# python3 generate_layout_data.py
 
 # Install layouts if started with -i flag
 getopts 'i' option
@@ -39,8 +40,14 @@ then
     done
     
     echo "Copying match files into Espanso config directory..."
+    mkdir ~/.config/espanso/match
     rm -f ~/.config/espanso/match/*.yml
     cp -f matches/*.yml ~/.config/espanso/match/
+    
+    # echo "Copying scripts into Espanso config directory..."
+    # mkdir ~/.config/espanso/scripts
+    # rm -f ~/.config/espanso/scripts/*
+    # cp -f scripts/* ~/.config/espanso/scripts/
 fi
 
 echo 'Done.'

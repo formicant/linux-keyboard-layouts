@@ -1,3 +1,4 @@
 .vscode
 build
 UnicodeData.txt
+scripts/layouts.pkl

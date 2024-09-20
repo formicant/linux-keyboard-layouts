@@ -6,3 +6,13 @@ matches:
         type: date
         params:
           format: "%Y-%m-%d"
+
+  # - trigger: "⌨"
+  #   replace: "{{output}}"
+  #   vars:
+  #     - name: output
+  #       type: script
+  #       params:
+  #         args:
+  #           - python
+  #           - .config/espanso/scripts/convert_layout.py
