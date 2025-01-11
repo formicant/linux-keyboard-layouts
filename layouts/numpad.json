@@ -1,0 +1,21 @@
+{
+  "shiftlevels": ["NumLock", "NumLock+Shift", "NumLock+AltGr", "NumLock+Shift+AltGr", "NumLock+Extend", "NumLock+Shift+Extend"],
+  "keys": [
+    { "pos": "NumLock", "shiftlevels": ["None", "Shift"], "letters": ["📅", "NumLock"] },
+    { "pos": "KP_Div",  "letters": ["/", "∕", "⁄"] },
+    { "pos": "KP_Mult", "letters": ["*", "∗", "⋆", "∘"] },
+    { "pos": "KP_Min",  "letters": ["-", "−", "∖"] },
+    { "pos": "KP_Plus", "letters": ["+", "+", "∑"] },
+    { "pos": "KP_7",    "letters": ["7", "↖", "⇖", "↶", "⌈"] },
+    { "pos": "KP_8",    "letters": ["8", "↑", "⇑", "↥", "∩", "∧"] },
+    { "pos": "KP_9",    "letters": ["9", "↗", "⇗", "↷", "⌉"] },
+    { "pos": "KP_4",    "letters": ["4", "←", "⇐", "↤", "⊂", "∈"] },
+    { "pos": "KP_5",    "letters": ["5", "↔", "⇔", "⇄", "′", "″"] },
+    { "pos": "KP_6",    "letters": ["6", "→", "⇒", "↦", "⊃", "∋"] },
+    { "pos": "KP_1",    "letters": ["1", "↙", "⇙", "↻", "⌊"] },
+    { "pos": "KP_2",    "letters": ["2", "↓", "⇓", "↧", "∪", "∨"] },
+    { "pos": "KP_3",    "letters": ["3", "↘", "⇘", "↺", "⌋"] },
+    { "pos": "KP_0",    "letters": ["0", "↕", "⇕", "⇅", "∅", "○"] },
+    { "pos": "KP_Dec",  "letters": [".", "⋅", "∙"] }
+  ]
+}

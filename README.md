@@ -54,6 +54,7 @@ A reboot might be needed to apply the new layouts.
 
 - `layouts` directory with layout description json_files:
   - `base.json` — non-alphabetical characters used in all layouts
+  - `numpad.json` — numeric pad keys used in all layouts
   - `diacritics.json` — diacritical marks used in all layouts
   - `us.json` — a US English-based Latin script layout
   - `ru.json` — a Russian-based Cyrillic script layout
