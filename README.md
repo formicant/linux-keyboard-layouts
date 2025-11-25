@@ -7,11 +7,15 @@ Tested on: _Arch Linux, KDE Plasma, X11_.
 
 ## Dependencies
 
+- [keyd](https://github.com/rvaiya/keyd)
+  
+  Key remapping daemon.
+
 - [Keyboard Layout Files Creator](https://github.com/39aldo39/klfc) (`klfc`)
   
   Converts .json layout description files into XKB files and creates install scripts.
 
-- [_Espanso_](https://espanso.org)
+- [Espanso](https://espanso.org)
   
   Automatically replaces character strings according to the given patterns while typing.
   
@@ -41,6 +45,7 @@ To build and install the layouts, run
 ```
 - installs the XKB layouts,
 - copies the match files into the Espanso config directory.
+- copyes keyd config into the keyd config directory.
 
 Will ask for your sudo password.
 
@@ -52,6 +57,8 @@ A reboot might be needed to apply the new layouts.
 
 ## Contents
 
+- `keyd` directory with keyd config files:
+  - `default.conf` main keyd config
 - `layouts` directory with layout description json_files:
   - `base.json` — non-alphabetical characters used in all layouts
   - `numpad.json` — numeric pad keys used in all layouts

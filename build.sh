@@ -48,6 +48,9 @@ then
     # mkdir ~/.config/espanso/scripts
     # rm -f ~/.config/espanso/scripts/*
     # cp -f scripts/* ~/.config/espanso/scripts/
+    
+    echo "Copying keyd config..."
+    sudo cp -f keyd/* /etc/keyd/
 fi
 
 echo 'Done.'
